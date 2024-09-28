@@ -18,7 +18,7 @@
   }
 
   .heading-small {
-    @apply font-serif text-[32px] font-semibold leading-8;
+    @apply font-serif text-[28px] font-semibold leading-8 lg:text-[32px] lg:leading-10;
   }
 
   .body {

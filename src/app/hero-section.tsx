@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const HeroSection = () => (
   <main className="bg-russianViolet">
-    <Container className="text-ghostWhite">
+    <Container className="px-4 py-6 text-ghostWhite md:px-10">
       <Topbar />
 
       <div className="mx-auto my-16 max-w-2xl space-y-10 text-center">

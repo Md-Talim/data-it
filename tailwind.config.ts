@@ -14,7 +14,7 @@ const config: Config = {
     extend: {
       colors: {
         russianViolet: "#24053E", // Dark Purple
-        englishViolet: "#44FFA1", // Light Purple
+        englishViolet: "#584D62", // Light Purple
         springGreen: "#44FFA1",
         ghostWhite: "#FCF8FF",
         white: "#FFFFFF",
