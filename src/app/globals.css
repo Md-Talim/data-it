@@ -2,7 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
 @layer utilities {
+  .heading-large {
+    @apply font-serif text-[80px] font-semibold leading-[80px];
+  }
+
+  .heading-medium {
+    @apply font-serif text-[56px] font-semibold leading-[64px];
+  }
+
+  .heading-small {
+    @apply font-serif text-[32px] font-semibold leading-8;
+  }
+
+  .body {
+    @apply font-sans text-base leading-7 lg:text-lg lg:leading-8;
+  }
+
   .text-balance {
     text-wrap: balance;
   }
