@@ -10,7 +10,7 @@
 
 @layer utilities {
   .heading-large {
-    @apply font-serif text-[80px] font-semibold leading-[80px];
+    @apply font-serif text-[50px] font-semibold leading-[50px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px];
   }
 
   .heading-medium {
