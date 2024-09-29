@@ -18,3 +18,18 @@ export const features = [
       "Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.",
   },
 ];
+
+export const footerLinks = [
+  {
+    icon: "/icon-facebook.svg",
+    url: "https://www.facebook.com",
+  },
+  {
+    icon: "/icon-twitter.svg",
+    url: "https://www.twitter.com",
+  },
+  {
+    icon: "/icon-instagram.svg",
+    url: "https://www.instagram.com",
+  },
+];

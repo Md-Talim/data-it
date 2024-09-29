@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 interface Props {
-  variant: "light" | "dark";
+  variant?: "light" | "dark";
 }
 
 export const Logo = ({ variant = "light" }: Props) => {
