@@ -14,7 +14,7 @@
   }
 
   .heading-medium {
-    @apply font-serif text-[56px] font-semibold leading-[64px];
+    @apply font-serif text-[32px] font-semibold leading-[48px] lg:text-[56px] lg:leading-[64px];
   }
 
   .heading-small {
